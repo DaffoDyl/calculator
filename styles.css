@@ -2,7 +2,7 @@
     --border: #303030;
     --display: #ececec;
     --calculator: #b4b4b4;
-  }
+}
 
 * {
     margin: 0;
@@ -27,9 +27,8 @@ a {
     min-height: 500px;
     padding: 10px;
     margin-top: 50px;
-  }
+}
   
-
 .calculator {
     width: 400px;
     border: 2px var(--border) solid;
@@ -73,6 +72,7 @@ a {
     margin-top: 10px;
     grid-column: span 2;
 }
+
 .footer {
     margin-top: 125px;
 }
