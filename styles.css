@@ -1,3 +1,11 @@
+:root {
+    --border: #303030;
+    --display: #ececec;
+    --calculator: #b4b4b4;
+  }
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -11,4 +19,62 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    min-height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  
+
+.calculator {
+    width: 400px;
+    border: 2px var(--border) solid;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: var(--calculator);
+    height: 450px;
+}
+
+.display {
+    padding: 10px 20px;
+    border: 2px var(--border) solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: var(--display);
+    text-align: right;
+}
+
+.displayResults {
+    min-height: 32px;
+    font-size: 20px;
+}
+  
+.displayOperation {
+    min-height: 64px;
+    font-size: 40px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.top-btn {
+    margin-top: 10px;
+    grid-column: span 2;
+}
+.footer {
+    margin-top: 125px;
 }
