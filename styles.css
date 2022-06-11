@@ -47,12 +47,12 @@ a {
     text-align: right;
 }
 
-.displayOperation {
+.operation {
     min-height: 32px;
     font-size: 20px;
 }
   
-.displayResults {
+.results {
     min-height: 64px;
     font-size: 40px;
 }
